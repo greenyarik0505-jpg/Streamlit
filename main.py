@@ -8,3 +8,9 @@ if fotball1 == "Роналду":
     st.success("Правильно")
 else:
     st.error("Неправильно")
+food = st.radio("Яка краща їжа:", ["Бургер", "Чипси", "макарони"])
+
+if food == "Чипси":
+    st.success("Правильно")
+else:
+    st.error("Неправильно")
