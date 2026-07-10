@@ -1,10 +1,10 @@
-from turtle import title
 import streamlit as st
 
-st.title = ('Тест на Дибила')
+st.title("Проверка знаний на Дибил")
 
-football = st.multiselect(
-    "Кто Goat с футболистов:",
-    ["Мбаппу", "Месси", "Винисиус", "Неймар", "Роналду"],
-)
-st.write(f"Твій вибір: {', '.join(football)}")
+fotball1 = st.radio("Оберіть Футболиста у кого больше всего голов:", ["Месси", "Роналду", "Неймар"])
+
+if fotball1 == "Роналду":
+    st.success("Правильно! 🎉")
+else:
+    st.error("Неправильно ❌")
