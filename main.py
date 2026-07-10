@@ -24,8 +24,9 @@ if strana == "СРСР":
     st.success("Правильно")
 else:
     st.error("Неправильно")
-xtoluck=st.radio("Хто лучший фізік", ["енштейн", "епштейн", "Империя"])
-if xtoluck == "енштейн":
+
+xtoluck=st.radio("Хто лучший фізік", ["Енштейн", "Епштейн", "Кирилл"])
+if xtoluck == "Енштейн":
     st.success("Правильно")
 else:
     st.error("Неправильно") 
