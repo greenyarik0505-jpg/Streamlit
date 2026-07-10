@@ -1,4 +1,7 @@
+from turtle import title
 import streamlit as st
+
+st.title = ('Тест на Дибила')
 
 football = st.multiselect(
     "Кто Goat с футболистов:",
